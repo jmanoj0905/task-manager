@@ -1,0 +1,15 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
